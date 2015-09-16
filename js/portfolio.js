@@ -1,4 +1,8 @@
 window.onload = function() {
+	$('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+	});
+
 	function scrollToAnchor(aid){
 	    var aTag = $("a[name='"+ aid +"']");
 	    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
@@ -38,7 +42,6 @@ window.onload = function() {
 
 	//closeModal
 	$("#closeModal").click(function() {
-		alert('fts');
 		$('.modal').fadeTo("fast", 0);
 		$('.modal').css({'display': 'none'});
 	});
