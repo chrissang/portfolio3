@@ -215,76 +215,140 @@ body {
 	background-color: rgba(0,0,0,0.5);
 }
 .navBarText {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 15px auto;
 	font-family: "Lato Bold",sans-serif;
 	font-size: 18px;
 	color: #ffffff;
 	text-align: center;
 }
 
-/* Nav hamburger icon */
-#nav-icon3 {
-  width: 40px;
-  /*height: 10px;*/
-  position: absolute;
-  margin: 0px;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
+.navContainer {
+	position: absolute;
+	z-index: 9;
+	width: 45px;
+	height: 45px;
+	top: 3px;
+	left: 10px;
+	background-color: #394d65;
+	border-radius: 5px;
 }
-#nav-icon3 span {
+
+a {
+    text-decoration:none;
+}
+.menuPanelClose {
+    position: fixed;
+    width: 400px;
+    height: 340px;
+    display: none;
+    top: 35px;
+}
+
+.menuPanelOpen {
+    display: block;
+}
+.menuPanelClose ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.menuPanelClose li {
+    list-style-type: none;
+}
+.menuPanelClose a {
+    display: block;
+    padding: 15px 15px 15px 15px;
+}
+.menuPanelClose a:link, .menuPanelClose a:visited {
+    color: #fff;
+}
+.menuPanelClose a:hover, .menuPanelClose a:active {
+    background: #25B89A;
+}
+
+
+.hamburger {
+	position: absolute;
+	z-index: 10;
+	top: 7px;
+	left: 7px;
+	font-size: 30px;
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	padding: 0;
+	cursor: pointer;
+	transition: transform .2s ease-in-out;
+	vertical-align: middle;
+	border: 0 none;
+	background: transparent;
+}
+
+/**
+ * Button height fix for Firefox
+ */
+.hamburger::-moz-focus-inner {
+  padding: 0;
+  border: 0 none;
+}
+
+/**
+ * Focus fix for Chrome
+ */
+.hamburger:focus {
+  outline: 0;
+}
+.hamburger:before,
+.hamburger:after {
+  content: "";
+}
+
+.hamburger:before,
+.hamburger .icon,
+.hamburger:after {
   display: block;
-  position: absolute;
-  height: 5px;
+
   width: 100%;
-  background: #ffffff;
-  border-radius: 9px;
-  opacity: 1;
-  left: 10px;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  height: .2em;
+  margin: 0 0 .2em;
+
+  transition: transform .2s ease-in-out;
+
+  border-radius: .05em;
+  background: #596c7d;
 }
-#nav-icon3 span:nth-child(1) {
-  top: 8px;
+
+/**
+ * Styles for the active `.hamburger` icon
+ */
+.hamburger.active:before,
+.hamburger.active .icon,
+.hamburger.active:after {
+  background: #2c3e50;
 }
-#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-  top: 21px;
+/**
+ * LEFT ARROW
+ */
+.hamburger.hamburger-arrow-left.active {
+  transform: rotate(180deg);
 }
-#nav-icon3 span:nth-child(4) {
-  top: 36px;
+
+.hamburger.hamburger-arrow-left.active:before {
+  width: .6em;
+  transform: translateX(.4em) translateY(.2em) rotate(45deg);
 }
-#nav-icon3.open span:nth-child(1) {
-  top: 18px;
-  width: 0%;
-  left: 50%;
+
+.hamburger.hamburger-arrow-left.active .icon {
+  border-radius: .1em .25em .25em .1em;
 }
-#nav-icon3.open span:nth-child(2) {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-#nav-icon3.open span:nth-child(3) {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-#nav-icon3.open span:nth-child(4) {
-  top: 18px;
-  width: 0%;
-  left: 50%;
+
+.hamburger.hamburger-arrow-left.active:after {
+  width: .6em;
+  transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
 }
 
 
@@ -319,11 +383,18 @@ body {
 	color: #ffffff;
 	text-align: center;
 }
+.introArrowDiv {
+	position: relative;
+	width: 100px;
+	height: 66px;
+	top: 78%;
+	margin: auto; 
+}
 .introArrow {
 	position: relative;
 	width: 0;
 	height: 0;
-	top: 72%;
+	top: 0%;
 	border-style: solid;
 	border-width: 50px 50px 0 50px;
 	border-color: #ffffff transparent transparent;

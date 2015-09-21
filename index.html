@@ -7,22 +7,21 @@
 	</head>
 
 	<body>
+
 		<!-- Intro -->
 		<div class="intro">
 			<div class="navBar">
-				<div id="nav-icon3">
-				  <span></span>
-				  <span></span>
-				  <span></span>
-				  <span></span>
-				</div>
 				<p class="navBarText">Fabrizio del Gaudio</p>
 			</div>
 
 			<h1 class="introHeaderText">Fabrizio del Gaudio</h1>
 			<p class="introText">Front end developer</p>
 
-			<a id="portfolio" href="#"><div class="introArrow"></div></a>
+			<!-- <a id="portfolio" href="#"><div class="introArrow"></div></a> -->
+			<div class="introArrowDiv">
+				<a id="portfolio" class="introArrow" href="#"></a>	
+			</div>
+			
 		</div>
 
 		<!-- Portfolio -->
@@ -128,11 +127,42 @@
 			<h2 class="modalHeaderText">About</h2>
 			<h2 class="horizontalLine"></h2>
 		</div>
+		
+		<div id="nav" class="navContainer">
+			<button class="hamburger hamburger-arrow-left">
+				<span class="icon"></span>
+			</button>
+
+			<!-- Nav -->
+			<nav id="menu" class="menuPanelClose">
+			    <ul>
+			        <li><a href="#">Home</a>
+
+			        </li>
+			        <li><a href="#">About</a>
+
+			        </li>
+			        <li><a href="#">Contact</a>
+
+			        </li>
+			        <li><a href="#">Sitemap</a>
+
+			        </li>
+			        <li><a href="#">Archive</a>
+
+			        </li>
+			    </ul>
+			</nav>
+		</div>		
+
+		<!-- <button class="hamburger hamburger-arrow-left">
+			<span class="icon"></span>
+		</button> -->
 
 		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 		<script src="js/jquery-1.7.1.min.js"></script>
 
-		<script src="js/nav.js"></script>
+		
 		<script src="js/portfolio.js"></script>
 	</body>
 </html>
