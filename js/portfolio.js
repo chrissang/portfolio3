@@ -63,16 +63,13 @@ window.onload = function() {
 		$('#aboutModal').fadeTo("fast", 1);
 	});
 
-	$(".hamburger").click(function() {	
-		
+	$(".hamburger").click(function() {
 		var toggleWidth = $(".navContainer").width() == 400 ? "45px" : "400px";
 		var toggleHight = $(".navContainer").height() == 340 ? "45px" : "340px";
         $('.navContainer').animate({width: toggleWidth, height: toggleHight});
 	
  		$('.menuPanelClose').toggle('active');
- 
 	});
-
 };
 
 
