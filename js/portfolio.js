@@ -63,16 +63,14 @@ window.onload = function() {
 		$('#aboutModal').fadeTo("fast", 1);
 	});
 
-	$(".hamburger").click(function() {
-		$("#nav").toggle(function(){
-	        $(this).animate({width:400,height:340},500);
-	    },function(){
-	        $(this).animate({width:45,height:45},500);
-	    });
-		// if ( $( "#menu" ).is(".menuPanelClose")) {
- 	// 		$('.navContainer').animate({'width': '400px', 'height': '340px'});
- 	// 		$('.menuPanelClose').toggle('active');
-  //   	}
+	$(".hamburger").click(function() {	
+		
+		var toggleWidth = $(".navContainer").width() == 400 ? "45px" : "400px";
+		var toggleHight = $(".navContainer").height() == 340 ? "45px" : "340px";
+        $('.navContainer').animate({width: toggleWidth, height: toggleHight});
+	
+ 		$('.menuPanelClose').toggle('active');
+ 
 	});
 
 };
