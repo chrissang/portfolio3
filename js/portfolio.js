@@ -64,11 +64,11 @@ window.onload = function() {
 	});
 
 	$(".hamburger").click(function() {
-		var toggleWidth = $(".navContainer").width() == 400 ? "45px" : "400px";
+		var toggleWidth = $(".navContainer").width() == 350 ? "45px" : "350px";
 		var toggleHight = $(".navContainer").height() == 340 ? "45px" : "340px";
         $('.navContainer').animate({width: toggleWidth, height: toggleHight});
 	
- 		$('.menuPanelClose').toggle('active');
+ 		$('.menuPanel').toggle('active');
 	});
 };
 

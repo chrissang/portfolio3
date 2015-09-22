@@ -212,7 +212,7 @@ body {
 	left: 0px;
 	padding: 0px;
 	margin: 0px;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,1);
 }
 .navBarText {
 	position: absolute;
@@ -234,16 +234,16 @@ body {
 	height: 45px;
 	top: 3px;
 	left: 10px;
-	background-color: #394d65;
+	background-color: #333333;
 	border-radius: 5px;
 }
 
 a {
     text-decoration:none;
 }
-.menuPanelClose {
+.menuPanel {
     position: fixed;
-    width: 400px;
+    width: 350px;
     height: 340px;
     display: none;
     top: 35px;
@@ -252,21 +252,21 @@ a {
 .menuPanelOpen {
     display: block;
 }
-.menuPanelClose ul {
+.menuPanel ul {
     list-style-type: none;
     padding: 0px;
 }
-.menuPanelClose li {
+.menuPanel li {
     list-style-type: none;
 }
-.menuPanelClose a {
+.menuPanel a {
     display: block;
     padding: 15px 15px 15px 15px;
 }
-.menuPanelClose a:link, .menuPanelClose a:visited {
+.menuPanel a:link, .menuPanel a:visited {
     color: #fff;
 }
-.menuPanelClose a:hover, .menuPanelClose a:active {
+.menuPanel a:hover, .menuPanel a:active {
     background: #25B89A;
 }
 
@@ -311,15 +311,12 @@ a {
 .hamburger .icon,
 .hamburger:after {
   display: block;
-
   width: 100%;
   height: .2em;
   margin: 0 0 .2em;
-
   transition: transform .2s ease-in-out;
-
   border-radius: .05em;
-  background: #596c7d;
+  background: #ffffff;
 }
 
 /**
@@ -328,7 +325,7 @@ a {
 .hamburger.active:before,
 .hamburger.active .icon,
 .hamburger.active:after {
-  background: #2c3e50;
+  background: #ffffff;
 }
 /**
  * LEFT ARROW
