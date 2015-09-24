@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<html>
+
+<head data-gwd-animation-mode="proMode">
+    <meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl56409b4bcc9a345e84f7ce3565e120b1" />
+    <link href="gwddoubleclick_style.css" data-version="1.9" data-exports-type="gwd-doubleclick" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="gwdimage_style.css" data-version="1.4" data-exports-type="gwd-image" rel="stylesheet">
+    <link href="gwdtaparea_style.css" data-version="1.3" data-exports-type="gwd-taparea" rel="stylesheet">
+    <link href="gwdpagedeck_style.css" data-version="1.5" data-exports-type="gwd-pagedeck" rel="stylesheet">
+    <script data-source="custom.elements.min.js" type="text/javascript" src="custom.elements.min.js"></script>
+    <script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+    <meta name="generator" content="Google Web Designer 1.2.1.0121">
+    <meta name="template" content="Expandable 2.1.2">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css" id="gwd-lightbox-style">
+        .gwd-lightbox {
+            overflow: hidden;
+        }
+    </style>
+    <style type="text/css">
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+        }
+        @font-face {
+            font-family: 'MyriadPro-Bold';
+            src: url('MyriadPro-Bold.eot'), url('MyriadPro-Bold.otf') format('opentype'), url('MyriadPro-Bold.ttf') format('truetype'), url('MyriadPro-Bold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'MyriadPro-BoldCond';
+            src: url('MyriadPro-BoldCond.eot'), url('MyriadPro-BoldCond.otf') format('opentype'), url('MyriadPro-BoldCond.ttf') format('truetype'), url('MyriadPro-BoldCond.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'MyriadPro-Cond';
+            src: url('MyriadPro-Cond.eot'), url('MyriadPro-Cond.otf') format('opentype'), url('MyriadPro-Cond.ttf') format('truetype'), url('MyriadPro-Cond.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'MyriadPro-Light';
+            src: url('MyriadPro-Light.eot'), url('MyriadPro-Light.otf') format('opentype'), url('MyriadPro-Light.ttf') format('truetype'), url('MyriadPro-Light.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'MyriadPro-Regular';
+            src: url('MyriadPro-Regular.eot'), url('MyriadPro-Regular.otf') format('opentype'), url('MyriadPro-Regular.ttf') format('truetype'), url('MyriadPro-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        input[type="radio"] {
+            display: none;
+        }
+        input[type="radio"] + label {
+            display: inline-block;
+            width: 125px;
+            height: 44px;
+            padding: 0px;
+            color: rgb(84, 84, 84);
+            background-image: url(gray_btn.png);
+        }
+        input[type="radio"]:checked + label {
+            width: 125px;
+            height: 44px;
+            display: inline-block;
+            padding: 0px;
+            color: rgb(255, 255, 255);
+            background-image: url(purple_btn.png);
+        }
+        .btnSingleLine-text {
+            font-family: 'MyriadPro-Cond';
+            font-size: 16px;
+            text-align: left;
+            padding: 12px 0px 0px 5px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        .btnDoubleLine-text {
+            font-family: 'MyriadPro-Cond';
+            font-size: 16px;
+            text-align: left;
+            margin: 0px;
+            padding: 5px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        .collapsed_large_text {
+            position: relative;
+            margin: 24px 0px 24px 320px;
+            width: 200px;
+            height: auto;
+            font-family: 'MyriadPro-Regular';
+            font-weight: normal;
+            font-size: 24px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            top: -8px;
+            left: 0px;
+        }
+        .collapsed_reimbursement_text {
+            position: absolute;
+            width: 103px;
+            height: 31px;
+            font-family: 'MyriadPro-Regular';
+            text-align: left;
+            color: rgb(156, 147, 167);
+            font-size: 12px;
+            top: 6px;
+            opacity: 0;
+            left: 195px;
+        }
+        .collapsed_adminstration_text {
+            position: absolute;
+            width: 103px;
+            height: 31px;
+            font-family: 'MyriadPro-Regular';
+            text-align: left;
+            color: rgb(156, 147, 167);
+            font-size: 12px;
+            opacity: 0;
+            left: 257px;
+            top: 64px;
+        }
+        .collapsed_dosesrequired_text {
+            position: absolute;
+            width: 103px;
+            height: 31px;
+            font-family: 'MyriadPro-Regular';
+            text-align: left;
+            color: rgb(156, 147, 167);
+            font-size: 12px;
+            opacity: 0;
+            left: 549px;
+            top: -12px;
+        }
+        .collapsed_safety_text {
+            position: absolute;
+            width: 103px;
+            height: 31px;
+            font-family: 'MyriadPro-Regular';
+            text-align: left;
+            color: rgb(156, 147, 167);
+            font-size: 12px;
+            top: 28px;
+            opacity: 0;
+            left: 548px;
+        }
+        .collapsed_indication_text {
+            position: absolute;
+            width: 103px;
+            height: 31px;
+            font-family: 'MyriadPro-Regular';
+            text-align: left;
+            color: rgb(156, 147, 167);
+            font-size: 12px;
+            opacity: 0;
+            left: 603px;
+            top: 65px;
+        }
+        .isi {
+            left: 483px;
+            width: 245px;
+            height: 295px;
+            position: absolute;
+            overflow-y: scroll;
+            margin: 0px;
+            padding: 20px 0px 0px;
+        }
+        .isi-title {
+            font-family: 'MyriadPro-BoldCond';
+            font-size: 12px;
+            color: rgb(148, 28, 128);
+            text-align: left;
+            margin: 0px 10px 5px 15px;
+        }
+        .isi-text {
+            font-family: 'MyriadPro-Cond';
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+            text-align: left;
+            margin: 0px 20px 5px 15px;
+        }
+        .isi-warning {
+            font-family: 'MyriadPro-BoldCond';
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+            text-align: left;
+            margin: 0px;
+            padding: 0px;
+        }
+        .isi-links {
+            font-family: 'MyriadPro-BoldCond';
+            font-size: 12px;
+            color: rgb(148, 28, 128);
+            margin: 15px 10px 5px 8px;
+            text-align: center;
+        }
+        .isi-img {
+            padding-top: 10px;
+            text-align: center;
+        }
+        .isi-footer {
+            font-family: 'MyriadPro-Cond';
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+            margin: 10px 10px 5px 15px;
+            text-align: center;
+        }
+        .expanded-headline {
+            position: absolute;
+            width: 300px;
+            height: auto;
+            font-family: 'MyriadPro-Regular';
+            font-weight: normal;
+            font-size: 19px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            left: 183px;
+            top: 14px;
+        }
+        .div-btn1 {
+            position: absolute;
+            left: 17px;
+            top: 83px;
+            width: 125px;
+            height: 44px;
+        }
+        .div-btn2 {
+            position: absolute;
+            left: 17px;
+            top: 127px;
+            width: 125px;
+            height: 44px;
+        }
+        .div-btn3 {
+            position: absolute;
+            left: 17px;
+            top: 171px;
+            width: 125px;
+            height: 44px;
+        }
+        .div-btn4 {
+            position: absolute;
+            left: 17px;
+            top: 215px;
+            width: 125px;
+            height: 44px;
+        }
+        .div-btn5 {
+            position: absolute;
+            left: 17px;
+            top: 259px;
+            width: 125px;
+            height: 44px;
+        }
+        .div-content-font-light {
+            font-family: 'MyriadPro-Light';
+            font-size: 12px;
+            margin: 0px;
+        }
+        .div-content-font-reg {
+            font-family: 'MyriadPro-Regular';
+            font-size: 8px;
+            color: rgb(84, 84, 84);
+            margin: 0px;
+        }
+        .div-content-font-bold {
+            font-family: 'MyriadPro-Bold';
+            font-size: 8px;
+            color: rgb(84, 84, 84);
+            margin: 0px;
+        }
+        .div-btn-content {
+            position: absolute;
+            top: 83px;
+            left: 142px;
+            width: 332px;
+            height: 150px;
+            padding: 0px;
+            background-color: rgb(255, 255, 255);
+        }
+        .div-btn1-content {
+            position: absolute;
+            top: 83px;
+            left: 142px;
+            width: 332px;
+            height: 120px;
+            padding: 0px;
+            background-color: rgb(255, 255, 255);
+        }
+        .div-btn2-content {
+            position: absolute;
+            top: 83px;
+            left: 142px;
+            width: 0px;
+            height: 0px;
+            padding: 0px;
+            background-color: rgb(255, 255, 255);
+        }
+        .div-btn3-content {
+            position: absolute;
+            top: 83px;
+            left: 142px;
+            width: 0px;
+            height: 0px;
+            padding: 0px;
+            background-color: rgb(255, 255, 255);
+        }
+        .div-btn4-content {
+            position: absolute;
+            top: 83px;
+            left: 142px;
+            width: 0px;
+            height: 0px;
+            padding: 0px;
+            background-color: rgb(255, 255, 255);
+        }
+        .div-btn5-content {
+            position: absolute;
+            top: 83px;
+            left: 142px;
+            width: 0px;
+            height: 0px;
+            padding: 0px;
+            background-color: rgb(255, 255, 255);
+        }
+        .learnMoreBtn {
+            position: absolute;
+            top: 250px;
+            left: 215px;
+        }
+        .div-btn1-content-text {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            font-family: 'Myriad Pro-light';
+            width: 255px;
+            padding: 10px 0px 0px 10px;
+            margin: 0px;
+        }
+        .div-btn2-content-text {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            font-family: 'Myriad Pro-light';
+            width: 237px;
+            padding: 10px 0px 0px 10px;
+            margin: 0px;
+            opacity: 0;
+        }
+        .div-btn3-content-text {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            font-family: 'Myriad Pro-light';
+            width: 252px;
+            padding: 10px 0px 0px 10px;
+            margin: 0px;
+            opacity: 0;
+        }
+        .div-btn4-content-text {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            font-family: 'Myriad Pro-light';
+            width: 270px;
+            padding: 10px 0px 0px 10px;
+            margin: 0px;
+            opacity: 0;
+        }
+        .div-btn5-content-text {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            font-family: 'Myriad Pro-light';
+            width: 290px;
+            padding: 10px 0px 0px 10px;
+            margin: 0px;
+            opacity: 0;
+        }
+        .div-btn1-content-graphic {
+            position: absolute;
+            top: 10px;
+            left: 275px;
+        }
+        .div-btn2-content-graphic {
+            position: absolute;
+            top: 27px;
+            left: 250px;
+        }
+        .div-btn3-content-graphic {
+            position: absolute;
+            top: 18px;
+            left: 278px;
+        }
+        .div-btn4-content-graphic {
+            position: absolute;
+            top: 18px;
+            left: 287px;
+        }
+        .div-btn5-content-graphic {
+            position: absolute;
+            top: 18px;
+            left: 287px;
+        }
+        .div-btn1-content-references {
+            width: 305px;
+            padding: 15px 0px 0px;
+            margin: 0px;
+        }
+        .div-btn3-content-references {
+            width: 305px;
+            padding: 5px 0px 0px;
+            margin: 0px;
+        }
+        .div-btn4-content-references {
+            width: 305px;
+            padding: 5px 0px 0px;
+            margin: 0px;
+        }
+        .div-btn5-content-references {
+            width: 305px;
+            padding: 5px 0px 0px;
+            margin: 0px;
+        }
+        ul {
+            font-size: 12px;
+            margin: 0px;
+            padding: 0px 0px 0px 10px;
+        }
+        ul li span {
+            position: relative;
+            left: -5px;
+        }
+        li {
+            padding-bottom: 2px;
+        }
+        @-moz-document url-prefix() {
+            ul li span {
+                left: -1px;
+            }
+        }
+        .gwd-page-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .gwd-page-content {
+            -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            -webkit-perspective: 1400px;
+            -moz-perspective: 1400px;
+            perspective: 1400px;
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            position: absolute;
+            background-color: transparent;
+        }
+        .gwd-page-wrapper {
+            position: absolute;
+            -webkit-transform: translateZ(0px);
+            -moz-transform: translateZ(0px);
+            transform: translateZ(0px);
+            background-color: rgb(255, 255, 255);
+        }
+        .banner {
+            width: 728px;
+            height: 90px;
+        }
+        .expanded {
+            width: 729px;
+            height: 315px;
+        }
+        #expand-button {
+            position: absolute;
+            width: 728px;
+            height: 90px;
+            left: 0px;
+            top: 0px;
+        }
+        .gwd-img-vcjj {
+            position: absolute;
+            width: 728px;
+            height: 91px;
+            left: 0px;
+            top: 0px;
+        }
+        .gwd-img-elxj {
+            position: absolute;
+            width: 183px;
+            height: 62px;
+            left: 0px;
+            top: 12px;
+        }
+        .gwd-img-31fp {
+            position: absolute;
+            width: 183px;
+            height: 62px;
+            left: 0px;
+            top: 12px;
+        }
+        .gwd-img-trwq {
+            position: absolute;
+            width: 164px;
+            height: 65px;
+            top: 12.5px;
+            left: 564px;
+            color: rgb(0, 0, 0);
+        }
+        .gwd-img-crkc {
+            position: absolute;
+            width: 728px;
+            height: 315px;
+            left: 0px;
+            top: 0px;
+        }
+        @-webkit-keyframes gwd-empty-animation {
+            0% {
+                opacity: 0.001;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        @-moz-keyframes gwd-empty-animation {
+            0% {
+                opacity: 0.001;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        @keyframes gwd-empty-animation {
+            0% {
+                opacity: 0.001;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        #banner-page.gwd-play-animation .gwd-gen-v667gwdanimation {
+            -webkit-animation: gwd-gen-v667gwdanimation_gwd-keyframes 15s linear 0s 1 normal forwards;
+            -moz-animation: gwd-gen-v667gwdanimation_gwd-keyframes 15s linear 0s 1 normal forwards;
+            -ms-animation: gwd-gen-v667gwdanimation_gwd-keyframes 15s linear 0s 1 normal forwards;
+            animation: gwd-gen-v667gwdanimation_gwd-keyframes 15s linear 0s 1 normal forwards;
+        }
+        @-webkit-keyframes gwd-gen-v667gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 257px;
+                top: 64px;
+                -webkit-animation-timing-function: linear;
+            }
+            20% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                -webkit-animation-timing-function: linear;
+            }
+            36.67% {
+                opacity: 0;
+                left: 238px;
+                top: 49px;
+                -webkit-animation-timing-function: linear;
+            }
+            56.67% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                -webkit-animation-timing-function: linear;
+            }
+            76.67% {
+                opacity: 0;
+                left: 238px;
+                top: 49px;
+                -webkit-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                -webkit-animation-timing-function: linear;
+            }
+        }
+        @-moz-keyframes gwd-gen-v667gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 257px;
+                top: 64px;
+                -moz-animation-timing-function: linear;
+            }
+            20% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                -moz-animation-timing-function: linear;
+            }
+            36.67% {
+                opacity: 0;
+                left: 238px;
+                top: 49px;
+                -moz-animation-timing-function: linear;
+            }
+            56.67% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                -moz-animation-timing-function: linear;
+            }
+            76.67% {
+                opacity: 0;
+                left: 238px;
+                top: 49px;
+                -moz-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                -moz-animation-timing-function: linear;
+            }
+        }
+        @-ms-keyframes gwd-gen-v667gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 257px;
+                top: 64px;
+                -ms-animation-timing-function: linear;
+            }
+            20% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                -ms-animation-timing-function: linear;
+            }
+            36.67% {
+                opacity: 0;
+                left: 238px;
+                top: 49px;
+                -ms-animation-timing-function: linear;
+            }
+            56.67% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                -ms-animation-timing-function: linear;
+            }
+            76.67% {
+                opacity: 0;
+                left: 238px;
+                top: 49px;
+                -ms-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                -ms-animation-timing-function: linear;
+            }
+        }
+        @keyframes gwd-gen-v667gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 257px;
+                top: 64px;
+                animation-timing-function: linear;
+            }
+            20% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                animation-timing-function: linear;
+            }
+            36.67% {
+                opacity: 0;
+                left: 238px;
+                top: 49px;
+                animation-timing-function: linear;
+            }
+            56.67% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                animation-timing-function: linear;
+            }
+            76.67% {
+                opacity: 0;
+                left: 238px;
+                top: 49px;
+                animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 238px;
+                top: 49px;
+                animation-timing-function: linear;
+            }
+        }
+        #banner-page.gwd-play-animation .gwd-gen-leppgwdanimation {
+            -webkit-animation: gwd-gen-leppgwdanimation_gwd-keyframes 13.5s linear 1.5s 1 normal forwards;
+            -moz-animation: gwd-gen-leppgwdanimation_gwd-keyframes 13.5s linear 1.5s 1 normal forwards;
+            -ms-animation: gwd-gen-leppgwdanimation_gwd-keyframes 13.5s linear 1.5s 1 normal forwards;
+            animation: gwd-gen-leppgwdanimation_gwd-keyframes 13.5s linear 1.5s 1 normal forwards;
+        }
+        @-webkit-keyframes gwd-gen-leppgwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 195px;
+                -webkit-animation-timing-function: linear;
+            }
+            22.22% {
+                opacity: 1;
+                left: 211px;
+                -webkit-animation-timing-function: linear;
+            }
+            44.44% {
+                opacity: 0;
+                left: 211px;
+                -webkit-animation-timing-function: linear;
+            }
+            66.67% {
+                opacity: 1;
+                left: 211px;
+                -webkit-animation-timing-function: linear;
+            }
+            88.89% {
+                opacity: 0;
+                left: 211px;
+                -webkit-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 211px;
+                -webkit-animation-timing-function: linear;
+            }
+        }
+        @-moz-keyframes gwd-gen-leppgwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 195px;
+                -moz-animation-timing-function: linear;
+            }
+            22.22% {
+                opacity: 1;
+                left: 211px;
+                -moz-animation-timing-function: linear;
+            }
+            44.44% {
+                opacity: 0;
+                left: 211px;
+                -moz-animation-timing-function: linear;
+            }
+            66.67% {
+                opacity: 1;
+                left: 211px;
+                -moz-animation-timing-function: linear;
+            }
+            88.89% {
+                opacity: 0;
+                left: 211px;
+                -moz-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 211px;
+                -moz-animation-timing-function: linear;
+            }
+        }
+        @-ms-keyframes gwd-gen-leppgwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 195px;
+                -ms-animation-timing-function: linear;
+            }
+            22.22% {
+                opacity: 1;
+                left: 211px;
+                -ms-animation-timing-function: linear;
+            }
+            44.44% {
+                opacity: 0;
+                left: 211px;
+                -ms-animation-timing-function: linear;
+            }
+            66.67% {
+                opacity: 1;
+                left: 211px;
+                -ms-animation-timing-function: linear;
+            }
+            88.89% {
+                opacity: 0;
+                left: 211px;
+                -ms-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 211px;
+                -ms-animation-timing-function: linear;
+            }
+        }
+        @keyframes gwd-gen-leppgwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 195px;
+                animation-timing-function: linear;
+            }
+            22.22% {
+                opacity: 1;
+                left: 211px;
+                animation-timing-function: linear;
+            }
+            44.44% {
+                opacity: 0;
+                left: 211px;
+                animation-timing-function: linear;
+            }
+            66.67% {
+                opacity: 1;
+                left: 211px;
+                animation-timing-function: linear;
+            }
+            88.89% {
+                opacity: 0;
+                left: 211px;
+                animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 211px;
+                animation-timing-function: linear;
+            }
+        }
+        #banner-page.gwd-play-animation .gwd-gen-a1k7gwdanimation {
+            -webkit-animation: gwd-gen-a1k7gwdanimation_gwd-keyframes 12s linear 3s 1 normal forwards;
+            -moz-animation: gwd-gen-a1k7gwdanimation_gwd-keyframes 12s linear 3s 1 normal forwards;
+            -ms-animation: gwd-gen-a1k7gwdanimation_gwd-keyframes 12s linear 3s 1 normal forwards;
+            animation: gwd-gen-a1k7gwdanimation_gwd-keyframes 12s linear 3s 1 normal forwards;
+        }
+        @-webkit-keyframes gwd-gen-a1k7gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 549px;
+                top: -12px;
+                -webkit-animation-timing-function: linear;
+            }
+            20.83% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                -webkit-animation-timing-function: linear;
+            }
+            45.83% {
+                opacity: 0;
+                left: 575px;
+                top: -6px;
+                -webkit-animation-timing-function: linear;
+            }
+            66.67% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                -webkit-animation-timing-function: linear;
+            }
+            91.67% {
+                opacity: 0;
+                left: 575px;
+                top: -6px;
+                -webkit-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                -webkit-animation-timing-function: linear;
+            }
+        }
+        @-moz-keyframes gwd-gen-a1k7gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 549px;
+                top: -12px;
+                -moz-animation-timing-function: linear;
+            }
+            20.83% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                -moz-animation-timing-function: linear;
+            }
+            45.83% {
+                opacity: 0;
+                left: 575px;
+                top: -6px;
+                -moz-animation-timing-function: linear;
+            }
+            66.67% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                -moz-animation-timing-function: linear;
+            }
+            91.67% {
+                opacity: 0;
+                left: 575px;
+                top: -6px;
+                -moz-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                -moz-animation-timing-function: linear;
+            }
+        }
+        @-ms-keyframes gwd-gen-a1k7gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 549px;
+                top: -12px;
+                -ms-animation-timing-function: linear;
+            }
+            20.83% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                -ms-animation-timing-function: linear;
+            }
+            45.83% {
+                opacity: 0;
+                left: 575px;
+                top: -6px;
+                -ms-animation-timing-function: linear;
+            }
+            66.67% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                -ms-animation-timing-function: linear;
+            }
+            91.67% {
+                opacity: 0;
+                left: 575px;
+                top: -6px;
+                -ms-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                -ms-animation-timing-function: linear;
+            }
+        }
+        @keyframes gwd-gen-a1k7gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 549px;
+                top: -12px;
+                animation-timing-function: linear;
+            }
+            20.83% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                animation-timing-function: linear;
+            }
+            45.83% {
+                opacity: 0;
+                left: 575px;
+                top: -6px;
+                animation-timing-function: linear;
+            }
+            66.67% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                animation-timing-function: linear;
+            }
+            91.67% {
+                opacity: 0;
+                left: 575px;
+                top: -6px;
+                animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 575px;
+                top: -6px;
+                animation-timing-function: linear;
+            }
+        }
+        #banner-page.gwd-play-animation .gwd-gen-zrf6gwdanimation {
+            -webkit-animation: gwd-gen-zrf6gwdanimation_gwd-keyframes 14s linear 1s 1 normal forwards;
+            -moz-animation: gwd-gen-zrf6gwdanimation_gwd-keyframes 14s linear 1s 1 normal forwards;
+            -ms-animation: gwd-gen-zrf6gwdanimation_gwd-keyframes 14s linear 1s 1 normal forwards;
+            animation: gwd-gen-zrf6gwdanimation_gwd-keyframes 14s linear 1s 1 normal forwards;
+        }
+        @-webkit-keyframes gwd-gen-zrf6gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 548px;
+                -webkit-animation-timing-function: linear;
+            }
+            21.43% {
+                opacity: 1;
+                left: 540px;
+                -webkit-animation-timing-function: linear;
+            }
+            42.86% {
+                opacity: 0;
+                left: 540px;
+                -webkit-animation-timing-function: linear;
+            }
+            64.29% {
+                opacity: 1;
+                left: 540px;
+                -webkit-animation-timing-function: linear;
+            }
+            85.71% {
+                opacity: 0;
+                left: 540px;
+                -webkit-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 540px;
+                -webkit-animation-timing-function: linear;
+            }
+        }
+        @-moz-keyframes gwd-gen-zrf6gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 548px;
+                -moz-animation-timing-function: linear;
+            }
+            21.43% {
+                opacity: 1;
+                left: 540px;
+                -moz-animation-timing-function: linear;
+            }
+            42.86% {
+                opacity: 0;
+                left: 540px;
+                -moz-animation-timing-function: linear;
+            }
+            64.29% {
+                opacity: 1;
+                left: 540px;
+                -moz-animation-timing-function: linear;
+            }
+            85.71% {
+                opacity: 0;
+                left: 540px;
+                -moz-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 540px;
+                -moz-animation-timing-function: linear;
+            }
+        }
+        @-ms-keyframes gwd-gen-zrf6gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 548px;
+                -ms-animation-timing-function: linear;
+            }
+            21.43% {
+                opacity: 1;
+                left: 540px;
+                -ms-animation-timing-function: linear;
+            }
+            42.86% {
+                opacity: 0;
+                left: 540px;
+                -ms-animation-timing-function: linear;
+            }
+            64.29% {
+                opacity: 1;
+                left: 540px;
+                -ms-animation-timing-function: linear;
+            }
+            85.71% {
+                opacity: 0;
+                left: 540px;
+                -ms-animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 540px;
+                -ms-animation-timing-function: linear;
+            }
+        }
+        @keyframes gwd-gen-zrf6gwdanimation_gwd-keyframes {
+            0% {
+                opacity: 0;
+                left: 548px;
+                animation-timing-function: linear;
+            }
+            21.43% {
+                opacity: 1;
+                left: 540px;
+                animation-timing-function: linear;
+            }
+            42.86% {
+                opacity: 0;
+                left: 540px;
+                animation-timing-function: linear;
+            }
+            64.29% {
+                opacity: 1;
+                left: 540px;
+                animation-timing-function: linear;
+            }
+            85.71% {
+                opacity: 0;
+                left: 540px;
+                animation-timing-function: linear;
+            }
+            100% {
+                opacity: 1;
+                left: 540px;
+                animation-timing-function: linear;
+            }
+        }
+        #banner-page.gwd-play-animation .gwd-gen-qpp5gwdanimation {
+            -webkit-animation: gwd-gen-qpp5gwdanimation_gwd-keyframes 13s linear 2s 1 normal forwards;
+            -moz-animation: gwd-gen-qpp5gwdanimation_gwd-keyframes 13s linear 2s 1 normal forwards;
+            -ms-animation: gwd-gen-qpp5gwdanimation_gwd-keyframes 13s linear 2s 1 normal forwards;
+            animation: gwd-gen-qpp5gwdanimation_gwd-keyframes 13s linear 2s 1 normal forwards;
+        }
+        @-webkit-keyframes gwd-gen-qpp5gwdanimation_gwd-keyframes {
+            0% {
+                left: 603px;
+                top: 65px;
+                opacity: 0;
+                -webkit-animation-timing-function: linear;
+            }
+            23.08% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                -webkit-animation-timing-function: linear;
+            }
+            46.15% {
+                left: 622px;
+                top: 61px;
+                opacity: 0;
+                -webkit-animation-timing-function: linear;
+            }
+            69.23% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                -webkit-animation-timing-function: linear;
+            }
+            84.62% {
+                left: 622px;
+                top: 61px;
+                opacity: 0;
+                -webkit-animation-timing-function: linear;
+            }
+            100% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                -webkit-animation-timing-function: linear;
+            }
+        }
+        @-moz-keyframes gwd-gen-qpp5gwdanimation_gwd-keyframes {
+            0% {
+                left: 603px;
+                top: 65px;
+                opacity: 0;
+                -moz-animation-timing-function: linear;
+            }
+            23.08% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                -moz-animation-timing-function: linear;
+            }
+            46.15% {
+                left: 622px;
+                top: 61px;
+                opacity: 0;
+                -moz-animation-timing-function: linear;
+            }
+            69.23% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                -moz-animation-timing-function: linear;
+            }
+            84.62% {
+                left: 622px;
+                top: 61px;
+                opacity: 0;
+                -moz-animation-timing-function: linear;
+            }
+            100% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                -moz-animation-timing-function: linear;
+            }
+        }
+        @-ms-keyframes gwd-gen-qpp5gwdanimation_gwd-keyframes {
+            0% {
+                left: 603px;
+                top: 65px;
+                opacity: 0;
+                -ms-animation-timing-function: linear;
+            }
+            23.08% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                -ms-animation-timing-function: linear;
+            }
+            46.15% {
+                left: 622px;
+                top: 61px;
+                opacity: 0;
+                -ms-animation-timing-function: linear;
+            }
+            69.23% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                -ms-animation-timing-function: linear;
+            }
+            84.62% {
+                left: 622px;
+                top: 61px;
+                opacity: 0;
+                -ms-animation-timing-function: linear;
+            }
+            100% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                -ms-animation-timing-function: linear;
+            }
+        }
+        @keyframes gwd-gen-qpp5gwdanimation_gwd-keyframes {
+            0% {
+                left: 603px;
+                top: 65px;
+                opacity: 0;
+                animation-timing-function: linear;
+            }
+            23.08% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                animation-timing-function: linear;
+            }
+            46.15% {
+                left: 622px;
+                top: 61px;
+                opacity: 0;
+                animation-timing-function: linear;
+            }
+            69.23% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                animation-timing-function: linear;
+            }
+            84.62% {
+                left: 622px;
+                top: 61px;
+                opacity: 0;
+                animation-timing-function: linear;
+            }
+            100% {
+                left: 622px;
+                top: 61px;
+                opacity: 1;
+                animation-timing-function: linear;
+            }
+        }
+        .gwd-taparea-etbd {
+            position: absolute;
+            left: 0px;
+            top: 12px;
+            height: 61px;
+            width: 182px;
+        }
+        .gwd-taparea-dv07 {
+            position: absolute;
+            left: 234px;
+            top: 269px;
+            height: 29px;
+            width: 177px;
+        }
+        .gwd-taparea-g4rc {
+            position: relative;
+            width: 220px;
+            height: 26px;
+        }
+        .gwd-taparea-mrhe {
+            position: relative;
+            width: 220px;
+            height: 26px;
+        }
+        .gwd-taparea-ekit {
+            position: relative;
+            width: 245px;
+            height: 88px;
+        }
+        .close_btn {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            top: 2px;
+            left: 460px;
+        }
+        .numberOfDosesComponentTapArea {
+            position: absolute;
+            left: 17px;
+            top: 83px;
+            width: 125px;
+            height: 44px;
+        }
+        .reimbursementPatientSupportComponentTapArea {
+            position: absolute;
+            left: 17px;
+            top: 127px;
+            width: 125px;
+            height: 44px;
+        }
+        .safetyComponentTapArea {
+            position: absolute;
+            left: 17px;
+            top: 171px;
+            width: 125px;
+            height: 44px;
+        }
+        .AdministrationComponentTapArea {
+            position: absolute;
+            left: 17px;
+            top: 215px;
+            width: 125px;
+            height: 44px;
+        }
+        .IndicationsComponentTapArea {
+            position: absolute;
+            left: 17px;
+            top: 259px;
+            width: 125px;
+            height: 44px;
+        }
+    </style>
+    <script data-source="gwdpage_min.js" data-version="1.2" data-exports-type="gwd-page" type="text/javascript" src="gwdpage_min.js"></script>
+    <script data-source="gwdpagedeck_min.js" data-version="1.5" data-exports-type="gwd-pagedeck" type="text/javascript" src="gwdpagedeck_min.js"></script>
+    <script data-source="gwdtaparea_min.js" data-version="1.3" data-exports-type="gwd-taparea" type="text/javascript" src="gwdtaparea_min.js"></script>
+    <script data-source="https://s0.2mdn.net/ads/studio/Enabler.js" data-exports-type="gwd-doubleclick" type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+    <script data-source="gwddoubleclick_min.js" data-version="1.9" data-exports-type="gwd-doubleclick" type="text/javascript" src="gwddoubleclick_min.js"></script>
+    <script data-source="gwdimage_min.js" data-version="1.4" data-exports-type="gwd-image" type="text/javascript" src="gwdimage_min.js"></script>
+    <script type="text/javascript" gwd-events="support" src="gwd-events-support.1.0.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/swiffy/v7.2.0/runtime.js"></script>
+    <script type="text/javascript" src="animate.js"></script>
+    <script type="text/javascript" src="tab.js"></script>
+</head>
+
+<body class="document-body">
+    <gwd-doubleclick id="gwd-ad" polite-load="">
+        <gwd-metric-configuration></gwd-metric-configuration>
+        <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck" default-page="banner-page">
+            <div is="gwd-page" id="banner-page" data-gwd-name="Banner page" class="gwd-page-wrapper banner gwd-lightbox" data-gwd-width="728px" data-gwd-height="90px">
+                <div class="gwd-page-content banner">
+                    <img is="gwd-image" source="collapsed_Injectafer_bkg.png" id="collapsed_Injectafer_bkg" class="gwd-img-vcjj">
+                    <img is="gwd-image" source="collapsed_InjectaferLogo.png" id="collapsed_InjectaferLogo" class="gwd-img-elxj">
+                    <img is="gwd-image" source="collapsed_InjectaferRollOver_btn.png" id="collapsed_InjectaferRollOver_btn" class="gwd-img-trwq">
+                    <p class="collapsed_large_text" id="mainText">What do you look for in an IV iron?</p>
+                    <div class="collapsed_reimbursement_text gwd-gen-leppgwdanimation" id="reimbursementText">
+                        <p>Reimbursement</p>
+                    </div>
+                    <div class="collapsed_adminstration_text gwd-gen-v667gwdanimation" id="adminstrationText">
+                        <p>Administration</p>
+                    </div>
+                    <div class="collapsed_dosesrequired_text gwd-gen-a1k7gwdanimation" id="dosesrequiredText">
+                        <p>Doses required</p>
+                    </div>
+                    <div class="collapsed_safety_text gwd-gen-zrf6gwdanimation" id="safetyText">
+                        <p>Safety</p>
+                    </div>
+                    <div class="collapsed_indication_text gwd-gen-qpp5gwdanimation" id="indicationText">
+                        <p>Indications</p>
+                    </div>
+                    <gwd-taparea id="expand-button"></gwd-taparea>
+                </div>
+                <div style="position: absolute; left: 0px; top: 0px; width: 728px; height: 1px; z-index: 9000; background-color: rgb(0, 0, 0);"></div>
+                <div style="position: absolute; left: 727px; top: 0px; width: 1px; height: 90px; z-index: 9000; background-color: rgb(0, 0, 0);"></div>
+                <div style="position: absolute; left: 0px; top: 89px; width: 728px; height: 1px; z-index: 9000; background-color: rgb(0, 0, 0);"></div>
+                <div style="position: absolute; left: 0px; top: 0px; width: 1px; height: 90px; z-index: 9000; background-color: rgb(0, 0, 0);"></div>
+            </div>
+            <div is="gwd-page" id="expanded-page" expanded="" data-gwd-name="Expanded page" class="gwd-page-wrapper expanded gwd-lightbox" data-gwd-width="728px" data-gwd-height="315px" style="">
+                <div class="gwd-page-content expanded">
+                    <img is="gwd-image" source="expanded_Injectafer_bkg.png" id="expanded_Injectafer_bkg" class="gwd-img-crkc">
+                    <div id="swiffycontainer" style="position:absolute; top:0px; left:0px; width:480px; height:305px;">
+                        <script>
+                            var stage = new swiffy.Stage(document.getElementById('swiffycontainer'),
+                                swiffyobject, {});
+
+                            stage.start();
+                            stage.setBackground(null);
+                        </script>
+                    </div>
+                    <div id="ISI" class="isi" onmousedown="mouseDown()">
+                        <div class="isi-title">IMPORTANT SAFETY INFORMATION</div>
+                        <div class="isi-title">INDICATIONS/CONTRAINDICATIONS</div>
+                        <div class="isi-text">Injectafer® (ferric carboxymaltose injection) is an iron replacement product indicated for the treatment of iron deficiency anemia in adult patients who have intolerance to oral iron or have had unsatisfactory response to oral iron, and in adult patients with non-dialysis dependent chronic kidney disease. Injectafer® is contraindicated in patients with hypersensitivity to Injectafer® or any of its inactive components.
+                        </div>
+                        <div class="isi-title">WARNINGS AND PRECAUTIONS</div>
+                        <div class="isi-text"><span class="isi-warning">Serious hypersensitivity reactions, including anaphylactic-type reactions, some of which have been life-threatening and fatal, have been reported in patients receiving Injectafer®. Patients may present with shock, clinically significant hypotension, loss of consciousness, and/or collapse. Monitor patients for signs and symptoms of hypersensitivity during and after Injectafer® administration for at least 30 minutes and until clinically stable following completion of the infusion. Only administer Injectafer® when personnel and therapies are immediately available for the treatment of serious hypersensitivity reactions.</span> In clinical trials, serious anaphylactic/anaphylactoid reactions were reported in 0.1% (2/1775) of subjects receiving Injectafer®. Other serious or severe adverse reactions potentially associated with hypersensitivity which included, but were not limited to, pruritus, rash, urticaria, wheezing, or hypotension were reported in 1.5% (26/1775) of these subjects.
+                        </div>
+                        <div class="isi-text">In clinical studies, hypertension was reported in 3.8% (67/1775) of subjects. Transient elevations in systolic blood pressure, sometimes occurring with facial flushing, dizziness, or nausea were observed in 6% (106/1775) of subjects. These elevations generally occurred immediately after dosing and resolved within 30 minutes. Monitor patients for signs and symptoms of hypertension following each Injectafer® administration.
+                        </div>
+                        <div class="isi-text">In the 24 hours following administration of Injectafer®, laboratory assays may overestimate serum iron and transferrin bound iron by also measuring the iron in Injectafer®.</div>
+                        <div class="isi-title">ADVERSE REACTIONS</div>
+                        <div class="isi-text">In two randomized clinical studies, a total of 1775 patients were exposed to Injectafer®, 15 mg/kg of body weight, up to a single maximum dose of 750 mg of iron on two occasions, separated by at least 7 days, up to a cumulative dose of 1500 mg of iron. Adverse reactions reported by ≥2% of Injectafer®-treated patients were nausea (7.2%); hypertension (3.8%); flushing/hot flush (3.6%); blood phosphorus decrease (2.1%); and dizziness (2.0%).
+                        </div>
+                        <div class="isi-text">The following serious adverse reactions have been most commonly reported from the post-marketing spontaneous reports: urticaria, dyspnea, pruritus, tachycardia, erythema, pyrexia, chest discomfort, chills, angioedema, back pain, arthralgia, and syncope.
+                        </div>
+                        <div class="isi-links" id="isi_pi_btn">
+                            <gwd-taparea id="piComponent" class="gwd-taparea-g4rc" style="background-image: none;">
+                                <a><u>Please see Full Prescribing Information.</u></a>
+                            </gwd-taparea>
+                        </div>
+                        <div class="isi-links" id="isi_injectafer_btn">
+                            <gwd-taparea id="isiComponment" class="gwd-taparea-mrhe" style="background-image: none;">
+                                <a><u>Learn more at Injectafer.com</u></a>
+                            </gwd-taparea>
+                        </div>
+                        <div class="isi-img">
+                            <gwd-taparea id="americanRegentCompnoment" class="gwd-taparea-ekit" style="background-image: none;">
+                                <a>
+                                    <img is="gwd-image" source="americanRegent.png" id="americanRegentLogo">
+                                </a>
+                            </gwd-taparea>
+                        </div>
+                        <div class="isi-footer">Injectafer® is manufactured under license from Vifor (International) Inc., Switzerland.</div>
+                        <div class="isi-footer">© 2015 American Regent, Inc.</div>
+                    </div>
+                    <a href="">
+                        <img is="gwd-image" source="collapsed_InjectaferLogo.png" id="expanded_InjectaferLogo" class="gwd-img-31fp">
+                    </a>
+                    <div class="expanded-headline">
+                        <p>What do you look for in an IV iron?</p>
+                    </div>
+                    <div class="div-btn-content" id="div-btn-content">
+                        <div class="div-btn1-content-text" id="div-btn1-content-text">
+                            <ul>
+                                <li><span class="div-content-font-light" style="line-height:0px;">Only Injectafer® (ferric carboxymaltose injection) provides up to 1500 mg of iron in just two administrations separated by at least 7 days<sup style="line-height: 0;font-size:8px;">1</sup></span>
+                                </li>
+                                <li><span class="div-content-font-light" style="line-height:0px;">Greater Hb increases vs IV iron standard of care and oral iron<sup style="line-height: 0;font-size:8px;">1,2</sup></span>
+                                </li>
+                                <img class="div-btn1-content-graphic" is="gwd-image" source="btn1_content_graphic.png" id="gwd-image_6">
+                            </ul>
+                            <div class="div-btn1-content-references">
+                                <p class="div-content-font-reg"><span class="div-content-font-bold">References: 1.</span> Injectafer® [package insert]. Shirley, NY: American Regent, Inc; 2013. <span class="div-content-font-bold"><br>2.</span> Onken JE, Bregman DB, Harrington RA, et al. A multicenter, randomized, active-controlled study to investigate the efficacy and safety of intravenous ferric carboxymaltose in patients with iron deficiency anemia. <i>Transfusion.</i> 2014;54(2):306-315.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="div-btn2-content-text" id="div-btn2-content-text">
+                            <ul>
+                                <li><span class="div-content-font-light" style="line-height:0px;">IV Iron Reimbursement Hotline 1-877-4-IV-IRON</span>
+                                </li>
+                                <li><span class="div-content-font-light" style="line-height:0px;">Assists physicians and other providers with insurance verifications, billing and coding,<br> and claims appeals for Injectafer® (ferric carboxymaltose injection)</span>
+                                </li>
+                                <img class="div-btn2-content-graphic" is="gwd-image" source="btn2_content_graphic.png" id="gwd-image_5">
+                            </ul>
+                        </div>
+                        <div class="div-btn3-content-text" id="div-btn3-content-text">
+                            <ul>
+                                <li><span class="div-content-font-light" style="line-height:0px;">No MRI interference, no black box warning, and no test dose or pre-medication required<sup style="line-height: 0;font-size:8px;">1</sup></span>
+                                </li>
+                                <li><span class="div-content-font-light" style="line-height:0px;">Safety profile comparable to Venofer® (iron sucrose injection, USP)<sup style="line-height: 0;font-size:8px;">2</sup></span>
+                                </li>
+                                <li><span class="div-content-font-light" style="line-height:0px;">Studied in more than 20 clinical trials with over 11,000 patients worldwide<sup style="line-height: 0;font-size:8px;">3</sup></span>
+                                </li>
+                                <img class="div-btn3-content-graphic" is="gwd-image" source="btn3_content_graphic.png" id="gwd-image_4">
+                            </ul>
+                            <div class="div-btn3-content-references">
+                                <p class="div-content-font-reg">
+                                    <span class="div-content-font-bold">References: 1. </span> Injectafer® [package insert]. Shirley, NY: American Regent, Inc; 2013.
+                                    <br>
+                                    <span class="div-content-font-bold"> 2.</span> Onken JE, Bregman DB, Harrington RA, et al. Ferric carboxymaltose in patients with iron-deficiency anemia and impaired renal function: the REPAIR-IDA trial. <i>Nephrol Dial Transplant.</i> 2014;29(4):833-842.
+                                    <span class="div-content-font-bold"> 3. </span> Data on file, Luitpold Pharmaceuticals, Inc, Shirley, NY.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="div-btn4-content-text" id="div-btn4-content-text">
+                            <ul>
+                                <li><span class="div-content-font-light" style="line-height:0px;">The highest FDA-approved single dose of IV iron, up to 750 mg, depending upon patient weight, administered in 2 doses, separated by at least 7 days</span>
+                                </li>
+                                <li><span class="div-content-font-light" style="line-height:0px;">Two administration options — IV infusion over at least 15 min or slow IV push injection over at least 7.5 min<sup style="line-height: 0;font-size:8px;">1</sup></span>
+                                </li>
+                                <img class="div-btn4-content-graphic" is="gwd-image" source="btn4_content_graphic.png" id="gwd-image_3">
+                            </ul>
+                            <div class="div-btn4-content-references">
+                                <p class="div-content-font-reg"><span class="div-content-font-bold">Reference: 1.</span> Injectafer® [package insert]. Shirley, NY: American Regent, Inc; 2013.</p>
+                            </div>
+                        </div>
+                        <div class="div-btn5-content-text" id="div-btn5-content-text">
+                            <ul>
+                                <li><span class="div-content-font-light" style="line-height:0px;">Injectafer® (ferric carboxymaltose injection) is the only non-dextran IV iron approved to treat various etiologies of IDA in adult patients — including GI-related conditions<sup style="line-height: 0;font-size:8px;">1</sup></span>
+                                </li>
+                                <li><span class="div-content-font-light" style="line-height:0px;">Injectafer® is an iron replacement product indicated for the treatment of iron deficiency anemia in adult patients who have intolerance to oral iron or have had unsatisfactory response to oral iron, and in adult patients with non-dialysis dependent chronic kidney disease</span>
+                                </li>
+                            </ul>
+                            <div class="div-btn5-content-references">
+                                <p class="div-content-font-reg"><span class="div-content-font-bold">Reference: 1.</span> Injectafer® [package insert]. Shirley, NY: American Regent, Inc; 2013.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-btn1">
+                        <input type="radio" id="radio1" name="radioTabs" checked="checked" style="">
+                        <label for="radio1"><span class="btnDoubleLine-text">Number of doses required for repletion</span>
+                        </label>
+                    </div>
+                    <div class="div-btn2">
+                        <input type="radio" id="radio2" name="radioTabs" style="">
+                        <label for="radio2"><span class="btnDoubleLine-text">Reimbursement/<br>patient support</span>
+                        </label>
+                    </div>
+                    <div class="div-btn3">
+                        <input type="radio" id="radio3" name="radioTabs" style="">
+                        <label for="radio3"><span class="btnSingleLine-text">Safety</span>
+                        </label>
+                    </div>
+                    <div class="div-btn4">
+                        <input type="radio" id="radio4" name="radioTabs" style="">
+                        <label for="radio4"><span class="btnSingleLine-text">Administration</span>
+                        </label>
+                    </div>
+                    <div class="div-btn5">
+                        <input type="radio" id="radio5" name="radioTabs" style="">
+                        <label for="radio5"><span class="btnSingleLine-text">Indications in IDA</span>
+                        </label>
+                    </div>
+                    <div class="learnMoreBtn">
+                        <a href="">
+                            <img is="gwd-image" source="LearnMore_btn.png" id="learnMore_btn">
+                        </a>
+                    </div>
+                    <gwd-taparea id="logoComponent" class="gwd-taparea-etbd"></gwd-taparea>
+                    <gwd-taparea id="learnMoreComponent" class="gwd-taparea-dv07"></gwd-taparea>
+                    <gwd-taparea id="close-button"></gwd-taparea>
+                    <gwd-taparea id="numberOfDosesComponent" class="numberOfDosesComponentTapArea"></gwd-taparea>
+                    <gwd-taparea id="reimbursementPatientSupportComponent" class="reimbursementPatientSupportComponentTapArea"></gwd-taparea>
+                    <gwd-taparea id="safetyComponent" class="safetyComponentTapArea"></gwd-taparea>
+                    <gwd-taparea id="administrationComponent" class="AdministrationComponentTapArea"></gwd-taparea>
+                    <gwd-taparea id="indicationsComponent" class="IndicationsComponentTapArea"></gwd-taparea>
+                </div>
+                <div style="position: absolute; left: 0px; top: 0px; width: 728px; height: 1px; z-index: 9000; background-color: rgb(0, 0, 0);"></div>
+                <div style="position: absolute; left: 727px; top: 0px; width: 1px; height: 315px; z-index: 9000; background-color: rgb(0, 0, 0);"></div>
+                <div style="position: absolute; left: 0px; top: 314px; width: 728px; height: 1px; z-index: 9000; background-color: rgb(0, 0, 0);"></div>
+                <div style="position: absolute; left: 0px; top: 0px; width: 1px; height: 315px; z-index: 9000; background-color: rgb(0, 0, 0);"></div>
+            </div>
+            <script type="text/javascript">
+                //Functions for mouse leave
+                $("#expanded-page").mouseleave(function() {
+                    console.log('rollout')
+                    gwd.actions.gwdDoubleclick.goToPage('gwd-ad', 'banner-page', 'none', 1000, 'linear', 'top');
+                });
+            </script>
+            <script type="text/javascript" gwd-events="registration">
+                // Support code for event handling in Google Web Designer
+                // This script block is auto-generated. Please do not edit!
+                gwd.actions.events.registerEventHandlers = function(event) {
+                    gwd.actions.events.addHandler('expand-button', 'mouseover', gwd.handleExpand_buttonAction, false);
+                    gwd.actions.events.addHandler('close-button', 'click', gwd.handleClose_buttonAction, false);
+                    gwd.actions.events.addHandler('logoComponent', 'action', gwd.auto_LogoComponentAction, false);
+                    gwd.actions.events.addHandler('learnMoreComponent', 'action', gwd.auto_LearnMoreComponentAction, false);
+                    gwd.actions.events.addHandler('isiComponment', 'action', gwd.auto_IsiComponmentAction, false);
+                    gwd.actions.events.addHandler('piComponent', 'action', gwd.auto_PiComponentAction, false);
+                    gwd.actions.events.addHandler('americanRegentCompnoment', 'action', gwd.auto_AmericanRegentCompnomentAction, false);
+                    gwd.actions.events.addHandler('numberOfDosesComponent', 'action', gwd.auto_NumberOfDosesComponentAction, false);
+                    gwd.actions.events.addHandler('reimbursementPatientSupportComponent', 'action', gwd.auto_ReimbursementPatientSupportComponentAction, false);
+                    gwd.actions.events.addHandler('safetyComponent', 'action', gwd.auto_SafetyComponentAction, false);
+                    gwd.actions.events.addHandler('administrationComponent', 'action', gwd.auto_AdministrationComponentAction, false);
+                    gwd.actions.events.addHandler('indicationsComponent', 'action', gwd.auto_IndicationsComponentAction, false);
+                };
+                gwd.actions.events.deregisterEventHandlers = function(event) {
+                    gwd.actions.events.removeHandler('expand-button', 'mouseover', gwd.handleExpand_buttonAction, false);
+                    gwd.actions.events.removeHandler('close-button', 'click', gwd.handleClose_buttonAction, false);
+                    gwd.actions.events.removeHandler('logoComponent', 'action', gwd.auto_LogoComponentAction, false);
+                    gwd.actions.events.removeHandler('learnMoreComponent', 'action', gwd.auto_LearnMoreComponentAction, false);
+                    gwd.actions.events.removeHandler('isiComponment', 'action', gwd.auto_IsiComponmentAction, false);
+                    gwd.actions.events.removeHandler('piComponent', 'action', gwd.auto_PiComponentAction, false);
+                    gwd.actions.events.removeHandler('americanRegentCompnoment', 'action', gwd.auto_AmericanRegentCompnomentAction, false);
+                    gwd.actions.events.removeHandler('numberOfDosesComponent', 'action', gwd.auto_NumberOfDosesComponentAction, false);
+                    gwd.actions.events.removeHandler('reimbursementPatientSupportComponent', 'action', gwd.auto_ReimbursementPatientSupportComponentAction, false);
+                    gwd.actions.events.removeHandler('safetyComponent', 'action', gwd.auto_SafetyComponentAction, false);
+                    gwd.actions.events.removeHandler('administrationComponent', 'action', gwd.auto_AdministrationComponentAction, false);
+                    gwd.actions.events.removeHandler('indicationsComponent', 'action', gwd.auto_IndicationsComponentAction, false);
+                };
+                document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
+                document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
+            </script>
+            <script type="text/javascript" gwd-events="handlers">
+                gwd.handleExpand_buttonAction = function() {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.goToPage('gwd-ad', 'expanded-page', 'none', 1000, 'linear', 'top');
+                    expandedView();
+                };
+                gwd.handleClose_buttonAction = function() {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.goToPage('gwd-ad', 'banner-page');
+                };
+                gwd.auto_LogoComponentAction = function(event) {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.exit('gwd-ad', 'logoComponent', 'http://www.injectafer.com', true, true);
+                };
+                gwd.auto_LearnMoreComponentAction = function(event) {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.exit('gwd-ad', 'learnMoreComponent', 'http://www.injectafer.com', true, true);
+                };
+                gwd.auto_PiComponentAction = function(event) {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.exit('gwd-ad', 'piComponent', 'http://www.injectafer.com/pdf/pi.pdf', true, true);
+                };
+                gwd.auto_IsiComponmentAction = function(event) {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.exit('gwd-ad', 'isiComponment', 'http://www.injectafer.com', true, true);
+                };
+                gwd.auto_AmericanRegentCompnomentAction = function(event) {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.exit('gwd-ad', 'americanRegentCompnoment', 'http://americanregent.com', true, true);
+                };
+                gwd.auto_NumberOfDosesComponentAction = function(event) {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.incrementCounter('gwd-ad', 'numberOfDosesComponent', true);
+                    console.log('counter click 1');
+                    $("#radio1").prop("checked", true);
+                    //ainmates white box of content
+                    $('#div-btn-content').animate({
+                        width: '0',
+                        height: '0'
+                    });
+                    $('#div-btn-content').animate({
+                        width: '332',
+                        height: '150'
+                    });
+                    //fades text in
+                    $('#div-btn1-content-text').delay(500).animate({
+                        opacity: 1
+                    }, 'fast', 'swing');
+                    $('#div-btn2-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn3-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn4-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn5-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                };
+                gwd.auto_ReimbursementPatientSupportComponentAction = function(event) {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.incrementCounter('gwd-ad', 'reimbursementPatientSupportComponent', true);
+                    console.log('counter click 2');
+                    $("#radio2").prop("checked", true);
+                    //ainmates white box of content
+                    $('#div-btn-content').animate({
+                        width: '0',
+                        height: '0'
+                    });
+                    $('#div-btn-content').animate({
+                        width: '332',
+                        height: '100'
+                    });
+                    //fades text in
+                    $('#div-btn1-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn2-content-text').delay(500).animate({
+                        opacity: 1
+                    }, 'fast', 'swing');
+                    $('#div-btn3-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn4-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn5-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                };
+                gwd.auto_SafetyComponentAction = function(event) {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.incrementCounter('gwd-ad', 'safetyComponent', true);
+                    console.log('counter click 3');
+                    $("#radio3").prop("checked", true);
+                    //ainmates white box of content
+                    $('#div-btn-content').animate({
+                        width: '0',
+                        height: '0'
+                    });
+                    $('#div-btn-content').animate({
+                        width: '332',
+                        height: '160'
+                    });
+                    //fades text in
+                    $('#div-btn1-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn2-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn3-content-text').delay(500).animate({
+                        opacity: 1
+                    }, 'fast', 'swing');
+                    $('#div-btn4-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn5-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                };
+                gwd.auto_AdministrationComponentAction = function(event) {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.incrementCounter('gwd-ad', 'administrationComponent', true);
+                    console.log('counter click 4');
+                    $("#radio4").prop("checked", true);
+                    //ainmates white box of content
+                    $('#div-btn-content').animate({
+                        width: '0',
+                        height: '0'
+                    });
+                    $('#div-btn-content').animate({
+                        width: '332',
+                        height: '110'
+                    });
+                    //fades text in
+                    $('#div-btn1-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn2-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn3-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn4-content-text').delay(500).animate({
+                        opacity: 1
+                    }, 'fast', 'swing');
+                    $('#div-btn5-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                };
+                gwd.auto_IndicationsComponentAction = function(event) {
+                    // GWD Predefined Function
+                    gwd.actions.gwdDoubleclick.incrementCounter('gwd-ad', 'indicationsComponent', true);
+                    console.log('counter click 5');
+                    $("#radio5").prop("checked", true);
+                    //ainmates white box of content
+                    $('#div-btn-content').animate({
+                        width: '0',
+                        height: '0'
+                    });
+                    $('#div-btn-content').animate({
+                        width: '332',
+                        height: '160'
+                    });
+                    //fades text in
+                    $('#div-btn1-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn2-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn3-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn4-content-text').animate({
+                        opacity: 0
+                    }, 'fast', 'swing');
+                    $('#div-btn5-content-text').delay(500).animate({
+                        opacity: 1
+                    }, 'fast', 'swing');
+                };
+            </script>
+            <script type="text/javascript" id="gwd-init-code">
+                (function() {
+                    document.body.style.opacity = "0";
+                    var gwdAd = document.getElementById('gwd-ad');
+                    /**
+                     * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+                     * fired when the document has been completely loaded and parsed.
+                     */
+
+                    function handleDomContentLoaded(event) {
+                        // This is a good place to show a loading or branding image while
+                        // the ad loads.
+                    }
+
+                    /**
+                     * Handles the WebComponentsReady event. This event is fired when all
+                     * custom elements have been registered and upgraded.
+                     */
+                    function handleWebComponentsReady(event) {
+                        document.body.style.opacity = "";
+                        // Start the Ad lifecycle.
+                        setTimeout(function() {
+                            gwdAd.initAd();
+                        }, 0);
+                    }
+
+                    /**
+                     * Handles the event that is dispatched after the Ad has been
+                     * initialized and before the default page of the Ad is shown.
+                     */
+                    function handleAdInitialized(event) {
+                        // This marks the end of the polite load phase of the Ad. If a
+                        // loading image was shown to the user, this is a good place to
+                        // remove it.
+                    }
+
+
+                    window.addEventListener('DOMContentLoaded',
+                        handleDomContentLoaded, false);
+                    window.addEventListener('WebComponentsReady',
+                        handleWebComponentsReady, false);
+                    window.addEventListener('adinitialized',
+                        handleAdInitialized, false);
+                })();
+            </script>
+        </div>
+        <gwd-exit metric="logoComponent" url="http://www.injectafer.com"></gwd-exit>
+        <gwd-exit metric="learnMoreComponent" url="http://www.injectafer.com"></gwd-exit>
+        <gwd-exit metric="isiComponment" url="http://www.injectafer.com"></gwd-exit>
+        <gwd-exit metric="piComponent" url="http://www.injectafer.com/pdf/pi.pdf"></gwd-exit>
+        <gwd-exit metric="americanRegentCompnoment" url="http://americanregent.com"></gwd-exit>
+        <gwd-counter name="numberOfDosesComponent"></gwd-counter>
+        <gwd-counter name="reimbursementPatientSupportComponent"></gwd-counter>
+        <gwd-counter name="safetyComponent"></gwd-counter>
+        <gwd-counter name="administrationComponent"></gwd-counter>
+        <gwd-counter name="indicationsComponent"></gwd-counter>
+    </gwd-doubleclick>
+
+
+    <script type="text/javascript" data-exports-type="gwd-studio-registration">
+        function StudioExports() {
+            Enabler.setExpandingPixelOffsets(0, 0, 728, 315, false, false);
+            Enabler.counter("numberOfDosesComponent");
+            Enabler.counter("reimbursementPatientSupportComponent");
+            Enabler.counter("safetyComponent");
+            Enabler.counter("administrationComponent");
+            Enabler.counter("indicationsComponent");
+            Enabler.exit("logoComponent", "http://www.injectafer.com");
+            Enabler.exit("learnMoreComponent", "http://www.injectafer.com");
+            Enabler.exit("isiComponment", "http://www.injectafer.com");
+            Enabler.exit("piComponent", "http://www.injectafer.com/pdf/pi.pdf");
+            Enabler.exit("americanRegentCompnoment", "http://americanregent.com");
+        }
+    </script>
+    <script type="text/gwd-admetadata">{"version":1,"type":"DoubleClick","format":"","template":"","politeload":true,"fullscreen":false,"counters":[{"metric":"numberOfDosesComponent"},{"metric":"reimbursementPatientSupportComponent"},{"metric":"safetyComponent"},{"metric":"administrationComponent"},{"metric":"indicationsComponent"}],"timers":[],"exits":[{"exitId":"logoComponent","url":"http://www.injectafer.com"},{"exitId":"learnMoreComponent","url":"http://www.injectafer.com"},{"exitId":"isiComponment","url":"http://www.injectafer.com"},{"exitId":"piComponent","url":"http://www.injectafer.com/pdf/pi.pdf"},{"exitId":"americanRegentCompnoment","url":"http://americanregent.com"}],"creativeProperties":{"minWidth":728,"minHeight":90,"maxWidth":728,"maxHeight":315},"components":["gwd-taparea","gwd-image","gwd-doubleclick","gwd-page","gwd-pagedeck"]}</script>
+</body>
+
+</html>

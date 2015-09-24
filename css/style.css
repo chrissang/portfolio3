@@ -25,7 +25,7 @@
 		width: 100% !important;
 	}
 	.closeModal {
-		right: 50px !important;
+		right: 25px !important;
 		width: 25px !important;
 		height: 25px !important
 	}
@@ -36,7 +36,7 @@
 		height: 25px !important;
 	}
 	.modalHeaderText {
-		top: 10% !important;
+		top: 8% !important;
 		font-size: 18px !important;
 	}
 	.horizontalLine {
@@ -51,6 +51,30 @@
 	}
 	.swiper-slide img {
 		width: 100% !important;
+	}
+	.bannerContent {
+		width: 100% !important;
+	}
+	.injectferBanner1 img {
+		width: 100% !important;
+	}
+	.injectferBanner2 {
+		float: none !important;
+		margin: auto !important;
+	}
+	.injectferBanner3 {
+		float: none !important;
+		margin: auto !important;
+		padding: 20px 0px 0px 0px !important;
+	}
+	.abctreatersBanner {
+		float: none !important;
+		margin: auto !important;
+	}
+	.nurseBanner {
+		float: none !important;
+		margin: auto !important;
+		padding: 20px 0px 0px 0px !important;
 	}
 } 
 /* Extra Small Devices, Phones */ 
@@ -102,7 +126,7 @@
 	}
 	.horizontalLine {
 		top: 13% !important;
-		width: 600px !important;
+		width: 100% !important;
 	}
 	.emailOne {
 		width: 600px !important;
@@ -112,6 +136,30 @@
 	}
 	.swiper-slide img {
 		width: 100% !important;
+	}
+	.bannerContent {
+		width: 100% !important;
+	}
+	.injectferBanner1 img {
+		width: 100% !important;
+	}
+	.injectferBanner2 {
+		float: none !important;
+		margin: auto !important;
+	}
+	.injectferBanner3 {
+		float: none !important;
+		margin: auto !important;
+		padding: 20px 0px 0px 0px !important;
+	}
+	.abctreatersBanner {
+		float: none !important;
+		margin: auto !important;
+	}
+	.nurseBanner {
+		float: none !important;
+		margin: auto !important;
+		padding: 20px 0px 0px 0px !important;
 	}
 }
 /* Small Devices, Tablets */
@@ -140,6 +188,24 @@
 	.swiper-slide img {
 		width: 600px !important;
 	}
+	.bannerContent {
+		width: 728px !important;
+	}
+	.injectferBanner2 {
+		float: left !important;
+		padding: 20px 0px 0px 0px !important;
+	}
+	.injectferBanner3 {
+		float: left !important;
+		padding: 20px 0px 0px 55px !important;
+	}
+	.abctreatersBanner {
+		float: right !important;
+	}
+	.nurseBanner {
+		float: left !important;
+		padding: 20px 0px 0px 55px !important;
+	}
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
@@ -167,6 +233,24 @@
 	.swiper-slide img {
 		width: 600px !important;
 	}
+	.bannerContent {
+		width: 728px !important;
+	}
+	.injectferBanner2 {
+		float: left !important;
+		padding: 20px 0px 0px 0px !important;
+	}
+	.injectferBanner3 {
+		float: left !important;
+		padding: 20px 0px 0px 55px !important;
+	}
+	.abctreatersBanner {
+		float: right !important;
+	}
+	.nurseBanner {
+		float: left !important;
+		padding: 20px 0px 0px 55px !important;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
@@ -193,6 +277,24 @@
 	}
 	.swiper-slide img {
 		width: 600px !important;
+	}
+	.bannerContent {
+		width: 728px !important;
+	}
+	.injectferBanner2 {
+		float: left !important;
+		padding: 20px 0px 0px 0px !important;
+	}
+	.injectferBanner3 {
+		float: left !important;
+		padding: 20px 0px 0px 55px !important;
+	}
+	.abctreatersBanner {
+		float: right !important;
+	}
+	.nurseBanner {
+		float: left !important;
+		padding: 20px 0px 0px 55px !important;
 	}
 }
 
@@ -226,6 +328,9 @@ body {
 
 .hide {
 	display: none;
+}
+.show {
+	display: block;
 }
 a {
     text-decoration:none;
@@ -587,7 +692,8 @@ a {
 	width: 1px;
 	z-index: 5;
 	height: 75px;
-	margin-left: 35px;
+	/*margin-left: 35px;*/
+	margin: auto;
 	background-color: #2c3e50;
 	-ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -669,6 +775,51 @@ a {
 }
 .emailTwo img {
 	width: 100%;
+}
+
+.bannerContent {
+	position: relative;
+	width: 728px;
+	top: 20%;
+	margin: auto;
+}
+.injectferBanner1 {
+	position: relative;
+	margin: auto;
+}
+.injectferBanner2 {
+	position: relative;
+	width: 160px;
+	float: left;
+	padding: 20px 0px 0px 0px;
+}
+.injectferBanner3 {
+	position: relative;
+	width: 300px;
+	float: left;
+	padding: 20px 0px 0px 55px;
+}
+.abctreatersBanner {
+	position: relative;
+	width: 160px;
+	float: right;
+	padding: 20px 0px 0px 0px;
+}
+.nurseBanner {
+	position: relative;
+	width: 300px;
+	float: left;
+	padding: 20px 0px 0px 55px;
+}
+.bannerText {
+	position: relative;
+	margin: 0px;
+	padding: 20px 0px 20px 0px;
+	font-family: 'Lato';
+	font-size: 16px;
+	font-weight: bold;
+	color: #979797;
+	text-align: left;
 }
 
 .swiper-container {

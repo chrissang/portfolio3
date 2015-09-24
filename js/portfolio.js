@@ -38,12 +38,7 @@ window.onload = function() {
 
 	//closeModal
 	$(".closeModal").click(function() {
-		// $('.modal').fadeTo("fast", 0);
-		// $('.modal').css({'display': 'none'});
 		$('.modal').addClass('hide').fadeOut();
-		// $('#bannerModal').addClass('hide');
-		// $('#mobileModal').css({'display': 'none'});
-		// $('#aboutModal').css({'display': 'none'});
 	});
 
 	//collage button click
@@ -55,6 +50,12 @@ window.onload = function() {
 	$("#contentBannerBtn").click(function() {
 		$('#bannerModal').css({'display': 'block'});
 		$('#bannerModal').fadeTo("fast", 1);
+		// $('#injectferBanner').append(jQuery('<div>').load("../banners/160x600_Injectafer_RM_Banner_2015/index.html"));
+		// $('#injectferBanner').load('banners/160x600_Injectafer_RM_Banner_2015/index.html');
+		
+
+
+
 	});
 
 	$("#contentIpadBtn").click(function() {
