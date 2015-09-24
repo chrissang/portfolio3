@@ -37,9 +37,13 @@ window.onload = function() {
 	});
 
 	//closeModal
-	$("#closeModal").click(function() {
-		$('.modal').fadeTo("fast", 0);
-		$('.modal').css({'display': 'none'});
+	$(".closeModal").click(function() {
+		// $('.modal').fadeTo("fast", 0);
+		// $('.modal').css({'display': 'none'});
+		$('.modal').addClass('hide').fadeOut();
+		// $('#bannerModal').addClass('hide');
+		// $('#mobileModal').css({'display': 'none'});
+		// $('#aboutModal').css({'display': 'none'});
 	});
 
 	//collage button click
@@ -56,6 +60,10 @@ window.onload = function() {
 	$("#contentIpadBtn").click(function() {
 		$('#mobileModal').css({'display': 'block'});
 		$('#mobileModal').fadeTo("fast", 1);
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	    });
 	});
 
 	$("#contentBoxingBtn").click(function() {
@@ -64,15 +72,15 @@ window.onload = function() {
 	});
 
 	$(".hamburger").click(function() {
-		var toggleWidth = $(".navContainer").width() == 350 ? "45px" : "350px";
-		var toggleHight = $(".navContainer").height() == 340 ? "45px" : "340px";
+		var toggleWidth = $(".navContainer").width() == 350 ? "40px" : "350px";
+		var toggleHight = $(".navContainer").height() == 340 ? "40px" : "340px";
         $('.navContainer').animate({width: toggleWidth, height: toggleHight});
 	
  		$('.menuPanel').toggle('active');
 	});
 };
 
-
+//Hamburger icon animation
 var el = document.querySelectorAll('.hamburger');
 for(i=0; i<=el.length; i++) {;
   el[i].addEventListener('click', function() {
