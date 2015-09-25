@@ -3,6 +3,7 @@ window.onload = function() {
 	    var aTag = $("a[name='"+ aid +"']");
 	    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 	}
+
 	// anchor tag
 	$("#portfolio").click(function() {
 	   scrollToAnchor('portfolioSection');
@@ -50,21 +51,15 @@ window.onload = function() {
 	$("#contentBannerBtn").click(function() {
 		$('#bannerModal').css({'display': 'block'});
 		$('#bannerModal').fadeTo("fast", 1);
-		// $('#injectferBanner').append(jQuery('<div>').load("../banners/160x600_Injectafer_RM_Banner_2015/index.html"));
-		// $('#injectferBanner').load('banners/160x600_Injectafer_RM_Banner_2015/index.html');
-		
-
-
-
 	});
 
 	$("#contentIpadBtn").click(function() {
 		$('#mobileModal').css({'display': 'block'});
 		$('#mobileModal').fadeTo("fast", 1);
 		var swiper = new Swiper('.swiper-container', {
-	        pagination: '.swiper-pagination',
-	        paginationClickable: true
-	    });
+            pagination: '.swiper-pagination',
+            paginationClickable: true
+        })
 	});
 
 	$("#contentBoxingBtn").click(function() {
@@ -88,5 +83,7 @@ for(i=0; i<=el.length; i++) {;
     this.classList.toggle('active');
   }, false);
 }
+
+
 
 
