@@ -339,30 +339,6 @@ a {
     text-decoration:none;
 }
 
-.navBar {
-	position: fixed;
-	z-index:1;
-	width: 100%;
-	height: 50px;
-	top: 0px;
-	left: 0px;
-	padding: 0px;
-	margin: 0px;
-	background-color: rgba(0,0,0,1);
-}
-.navBarText {
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	margin: 15px auto;
-	font-family: "Lato Bold",sans-serif;
-	font-size: 18px;
-	color: #ffffff;
-	text-align: center;
-}
-
 .navContainer {
 	position: absolute;
 	z-index: 2;
@@ -722,7 +698,7 @@ a {
 	top: 0px;
 	left: 0px;
 	background-color: #fdfdfd;
-	display: none;
+	visibility: hidden;
 	opacity: 0;
 	overflow: scroll;
 }
