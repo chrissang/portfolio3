@@ -9,11 +9,11 @@ window.onload = function() {
 	    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 	}
 
-
 	// anchor tag
 	$("#portfolio").click(function() {
 	   scrollToAnchor('portfolioSection');
 	});
+
 	//hover effect for collage
 	$("#contentEmailBtn").mouseenter(function() {
 		$('#collageEmailText').css({'opacity': 1});
