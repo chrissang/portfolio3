@@ -9,6 +9,7 @@ window.onload = function() {
 	    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 	}
 
+
 	// anchor tag
 	$("#portfolio").click(function() {
 	   scrollToAnchor('portfolioSection');
@@ -67,20 +68,12 @@ window.onload = function() {
 	});
 
 	$(".hamburger").click(function() {
-		var toggleWidth = $(".navContainer").width() == 350 ? "40px" : "350px";
-		var toggleHight = $(".navContainer").height() == 340 ? "40px" : "340px";
+		var toggleWidth = $(".navContainer").width() == 250 ? "35px" : "250px";
+		var toggleHight = $(".navContainer").height() == 250 ? "35px" : "250px";
         $('.navContainer').animate({width: toggleWidth, height: toggleHight});
  		$('.menuPanel').toggle('active');
 	});
 };
-
-//Hamburger icon animation
-var el = document.querySelectorAll('.hamburger');
-for(i=0; i<=el.length; i++) {;
-  el[i].addEventListener('click', function() {
-    this.classList.toggle('active');
-  }, false);
-}
 
 
 
