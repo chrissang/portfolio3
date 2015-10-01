@@ -10,7 +10,8 @@ window.onload = function() {
 	}
 
 	// anchor tag
-	$("#portfolio").click(function() {
+	$("#portfolio").click(function(e) {
+		e.preventDefault();
 	   scrollToAnchor('portfolioSection');
 	});
 
