@@ -378,6 +378,7 @@ html {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	/*this breaks anchor tag scroll*/
 	/*overflow: hidden;*/
 }
 body {
@@ -385,7 +386,6 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	/*overflow: scroll;*/
 }
 
 .hide {
@@ -710,7 +710,7 @@ a {
 }
 /*modal*/
 .modal {
-	position: absolute;
+	position: fixed;
 	z-index: 4;
 	width: 100%;
 	height: 100%;
@@ -719,7 +719,7 @@ a {
 	background-color: #fdfdfd;
 	visibility: hidden;
 	opacity: 0;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 .closeModal {
 	position: absolute;

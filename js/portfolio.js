@@ -47,24 +47,29 @@ window.onload = function() {
 	$(".closeModal").click(function() {
 		$('.modal').fadeTo(500, 0, function(){
 		   $('.modal').css("visibility", "hidden");   
+		   $('html').css({'overflow': 'scroll'});
 		});
 	});
 
 	//collage button click
 	$("#contentEmailBtn").click(function() {
 		$('#responsiveEmailModal').css({'visibility': 'visible'}).fadeTo("fast", 1);
+		$('html').css({'overflow': 'hidden'});
 	});
 
 	$("#contentBannerBtn").click(function() {
 		$('#bannerModal').css({'visibility': 'visible'}).fadeTo("fast", 1);
+		$('html').css({'overflow': 'hidden'});
 	});
 
 	$("#contentIpadBtn").click(function() {
 		$('#mobileModal').css({'visibility': 'visible'}).fadeTo("fast", 1);
+		$('html').css({'overflow': 'hidden'});
 	});
 
 	$("#contentBoxingBtn").click(function() {
 		$('#aboutModal').css({'visibility': 'visible'}).fadeTo("fast", 1);
+		$('html').css({'overflow': 'hidden'});
 	});
 
 	$(".hamburger").click(function() {
